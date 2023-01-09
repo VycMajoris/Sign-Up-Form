@@ -32,10 +32,46 @@
                     <p>Let's do this!</p>
                 </div>
 
-                <form action="#" id="signupForm"></form>
-                <div></div>
-                <div></div>
-                <div></div>
+                <form action="#" id="signupForm">
+                    <div class="nameAndLastNameContainer">
+
+                        <div class="firstNameDiv">
+                            <label id="firstNameLabel" for="name">FIRST NAME</label>
+                            <input id="name" type="text" name="name" required>
+                        </div>
+
+                        <div class="lastNameDiv">
+                            <label id="lastNameLabel" for="lastName">LAST NAME</label>
+                            <input id="lastName" type="text" name="lastName" required>
+                        </div>
+
+                    </div>
+
+                    <div class="mailAndTelContainer">
+                        <div class="emailDiv">
+                            <label id="emailLabel" for="email">EMAIL</label>
+                            <input id="email" type="email" name="email" required>
+                        </div>
+
+                        <div class="telDiv">
+                            <label id="telLabel" for="tel">PHONE NUMBER</label>
+                            <input id="tel" type="tel" name="tel" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        </div>
+                    </div>
+
+                    <div class="passwordsContainer">
+                        <div class="passwordDiv">
+                            <label id="passwordLabel" for="password">PASSWORD</label>
+                            <input id="password" type="password" name="password" required>
+                        </div>
+
+                        <div class="confirmPasswordDiv">
+                            <label id="passwordLabel" for="password">CONFIRM PASSWORD</label>
+                            <input id="password" type="password" name="password" required>
+                        </div>
+                    </div>
+                </form>
+
             </div>
             <div class="rightBottomDiv"></div>
         </div>

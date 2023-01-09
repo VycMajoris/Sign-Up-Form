@@ -106,3 +106,15 @@ body {
     height: 30%;
 }
 
+.nameAndLastNameContainer, .mailAndTelContainer, .passwordsContainer {
+    display: flex;
+    gap: 50px;
+}
+
+.firstNameDiv, .lastNameDiv,
+.emailDiv, .telDiv,
+.passwordDiv, .confirmPasswordDiv
+{
+    display: flex;
+    flex-direction: column;
+}
