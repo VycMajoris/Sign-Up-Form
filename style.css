@@ -71,7 +71,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 62.5%;
+    bottom: 62.7%;
     gap: 30px;
 
 }
@@ -146,6 +146,8 @@ body {
     gap: 5px;
 }
 
+
+
 .buttonAndTextContainer {
     display: flex;
     flex-direction: column;
@@ -197,16 +199,35 @@ label {
 
 form p {
     color: rgba(0, 0, 0, 0.8);
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 800;
+    
 }
+
+
 
 form p a {
     text-decoration-style: none;
     color: #536d3c;
 }
 
-.rightMiddleDiv div p {
+.rightMiddleDiv div:first-child p {
     font-size: 40px;
+    
 }
 
+.passwordDiv, .confirmPasswordDiv {
+    
+}
+
+ #passwordError, #confirmPasswordError {
+    font-size: 17px;
+    width: 18vw;
+    
+}
+
+#passwordError, #confirmPasswordError, #password, #confirmPassword {
+    flex: 1 1 auto;
+    
+}
+ 
